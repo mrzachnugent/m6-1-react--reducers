@@ -1,0 +1,32 @@
+{
+  "name": "react-workshop-ticket-booking",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "proxy": "http://localhost:5678",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-icons-kit": "^1.3.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:server": "nodemon server/server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
